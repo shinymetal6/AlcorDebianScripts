@@ -66,7 +66,7 @@ fi
 
 . ./SourceMe64
 HERE=`pwd`
-#make_uboot
-#make_atf
-#run_mkimage
+make_uboot
+make_atf
+run_mkimage
 make_boot_scr
